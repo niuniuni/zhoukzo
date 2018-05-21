@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px'
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <h2>大病求助</h2>
+            <p>目标金额 170000.00</p>
+            <p>资金用途 白血病治疗</p>
+            <h3>截止日期 2016-08-10 10:10 共10天</h3>
+            <div class="box"></div>
+            <div class="btn"></div>
+        </header>
+        <section>
+            <p>请救救我患白血病的女儿，他还想参加中考</p>
+            <h5>建议详细描述受助人的基本情况：如家庭背景，经济情况，患病经历等。建议详细描述受助人的基本情况：如家庭背景，经济状况，患病经历等。建议详细描述受助人的基本情况：如家庭背景，经济情况，患病经历等。建议详细描述受助人的基本情况：如家庭背景，经济状况，患病经历等。建议详细描述受助人的基本情况：如家庭背景，经济情况，患病经历等。建议详细描述受助人的基本情况：如家庭背景，经济状况，患病经历等</h5>
+            <p>项目内容和项目图片禁止透露任何联系方式和银行卡等收款信息，包括但不限于手机号码，座机号码，微信号，支付宝号，银行卡号等。违反以上规定，项目验证和提醒申请均不予通过。</p>
+            <div class="add text-centext bg-success">
+                <span class="glyphicon glyphicon-open" style="color:#fff">
+                    </span><input type="file">
+            </div>
+        </section>
+    </div>
+    <script src="src/Upload.js"></script>
+    <script>
+        new Upload('.add', {
+            type: ['jpg', 'jpge', 'png', 'gif'],
+            size: 3,
+            length: 3
+        })
+    </script>
+
+</body>
+
+</html>
